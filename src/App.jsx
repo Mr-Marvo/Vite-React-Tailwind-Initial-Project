@@ -20,10 +20,9 @@ function App() {
       theme={{
         algorithm:
           mode === "dark" ? theme.darkAlgorithm : theme.defaultAlgorithm,
-
         token: {
           colorPrimary: primaryColor,
-          fontFamily: "Inter-Regular",
+          fontFamily: "Archivo",
         },
       }}
     >
